@@ -3,32 +3,52 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSS Studio — Bento CSS generators</title>
+  <title>CSS Studio — Royal Bento Generators</title>
+  <meta name="description" content="A royal bento CSS toolkit with border-image, border-radius, box-shadow, color, mixer, and shape generators." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="shell"><nav class="topbar"><a class="brand" href="index.html"><span>CSS</span> Studio</a><div class="navlinks"><a href="border-image.html">Border image</a><a href="border-radius.html">Radius</a><a href="box-shadow.html">Shadow</a><a href="color-converter.html">Converter</a><a href="color-mixer.html">Mixer</a><a href="shape-generator.html">Shapes</a></div></nav></header>
-  <main class="shell">
-    <section class="hero-grid">
-      <div class="card hero-copy">
-        <p class="kicker">Bento CSS toolkit</p>
-        <h1>Design CSS faster with focused visual generators.</h1>
-        <p class="lede">A static collection of tools for border images, radius, shadows, colors, color blends, and clip-path shapes. Each tool has its own page and copy-ready output.</p>
-        <a class="button primary" href="#tools">Explore tools</a>
+  <header class="hero shell">
+    <nav class="topbar">
+      <a class="brand" href="index.html"><span>CSS</span> Studio</a>
+      <div class="navlinks">
+        <a href="border-image.html">Border image</a>
+        <a href="border-radius.html">Radius</a>
+        <a href="box-shadow.html">Shadow</a>
+        <a href="color-converter.html">Colors</a>
       </div>
-      <div class="card preview-art"><div class="sample-tile">CSS<br>Studio</div></div>
+    </nav>
+    <section class="hero-grid">
+      <div class="hero-copy bento-xl">
+        <p class="eyebrow">Royal bento design system</p>
+        <h1>CSS tools with jewel tones, deeper controls, and copy-ready output.</h1>
+        <p class="lede">Six separate GitHub Pages friendly generators for borders, radius, shadows, color conversions, color mixing, and CSS shapes.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="border-image.html">Start creating</a>
+          <a class="button ghost" href="#tools">View tools</a>
+        </div>
+      </div>
+      <div class="preview-card bento-md" aria-label="Decorative preview">
+        <div class="orb"></div>
+        <div class="sample-tile">royal<br/>CSS</div>
+      </div>
     </section>
-    <section class="section-heading" id="tools"><p class="kicker">Tools</p><h2>Pick a generator</h2></section>
+  </header>
+
+  <main class="shell" id="tools">
+    <section class="section-heading">
+      <p class="eyebrow">Separate pages</p>
+      <h2>Choose a generator</h2>
+    </section>
     <div class="tool-grid">
-      <a class="tool-card" href="border-image.html"><span>01</span><h3>Border-image generator</h3><p>Create gradient or image borders with slice, width, outset, and repeat controls.</p></a>
-      <a class="tool-card" href="border-radius.html"><span>02</span><h3>Border-radius generator</h3><p>Fine tune horizontal and vertical corner values for organic rounded shapes.</p></a>
-      <a class="tool-card" href="box-shadow.html"><span>03</span><h3>Box-shadow generator</h3><p>Build up to three shadow layers with offset, blur, spread, opacity, and inset options.</p></a>
-      <a class="tool-card" href="color-converter.html"><span>04</span><h3>Color format converter</h3><p>Convert a chosen color into HEX, RGB, HSL, OKLCH-style, and readable text values.</p></a>
-      <a class="tool-card" href="color-mixer.html"><span>05</span><h3>Color mixer</h3><p>Mix two colors, compare blend modes, and preview a five-step palette.</p></a>
-      <a class="tool-card" href="shape-generator.html"><span>06</span><h3>Shape generator</h3><p>Generate clip-path shapes for blobs, diamonds, triangles, badges, and circles.</p></a>
+      <a class="tool-card tall" href="border-image.html"><span>01</span><h3>Border-image generator</h3><p>Gradient and image-slice borders with repeat, width, outset, and live preview controls.</p></a>
+      <a class="tool-card" href="border-radius.html"><span>02</span><h3>Border-radius generator</h3><p>Eight-corner elliptical radii, presets, linked corners, and shape preview.</p></a>
+      <a class="tool-card wide" href="box-shadow.html"><span>03</span><h3>Box-shadow generator</h3><p>Layered soft shadows, inset mode, spread, blur, color opacity, and presets.</p></a>
+      <a class="tool-card" href="color-converter.html"><span>04</span><h3>Color format converter</h3><p>Convert HEX, RGB, HSL, and OKLCH with accessible contrast helpers.</p></a>
+      <a class="tool-card" href="color-mixer.html"><span>05</span><h3>Color mixer</h3><p>Blend two colors in RGB, HSL, LAB-like OKLab approximation, and generate palettes.</p></a>
+      <a class="tool-card tall" href="shape-generator.html"><span>06</span><h3>Shape generator</h3><p>CSS clip-path polygons, blobs, circles, triangles, badges, and exported CSS.</p></a>
     </div>
   </main>
-  <footer class="shell footer"><span>Ready for GitHub Pages hosting.</span><span>Created by <a href="https://vetrisuriya.in/" target="_blank" rel="noreferrer">Vetri Suriya</a></span></footer>
-  <script src="script.js"></script>
+  <footer class="shell footer">Built as static HTML/CSS/JS, so it can be hosted directly on GitHub Pages.</footer>
 </body>
 </html>
