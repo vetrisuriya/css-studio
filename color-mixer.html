@@ -1,1 +1,21 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Color mixer — CSS Studio</title><link rel="stylesheet" href="styles.css"></head><body data-tool="mixer"><main class="shell"><nav class="topbar"><a class="brand" href="index.html"><span>CSS</span> Studio</a><div class="navlinks"><a href="color-converter.html">Converter</a><a href="shape-generator.html">Shapes</a></div></nav><section class="section-heading"><p class="eyebrow">Tool 05</p><h2>Color mixer</h2></section><section class="workspace"><div class="work-card controls"><div class="inline"><input id="a" type="color" value="#d5a642"><input id="b" type="color" value="#48237b"></div><div class="control"><label>Mix amount</label><input id="mix" type="range" min="0" max="100" value="50"></div><div class="control"><label>Mode</label><select id="mode"><option value="rgb">RGB</option><option value="hsl">HSL</option></select></div><div class="swatches"><div class="swatch"></div><div class="swatch"></div><div class="swatch"></div><div class="swatch"></div><div class="swatch"></div></div></div><div class="panel"><div class="preview-zone"><div id="target" class="target">Mix</div></div><pre id="code" class="code"></pre><button class="button primary copy">Copy color</button></div></section></main><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Color mixer — CSS Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-tool="mixer">
+  <header class="shell"><nav class="topbar"><a class="brand" href="index.html"><span>CSS</span> Studio</a><div class="navlinks"><a href="border-image.html">Border image</a><a href="border-radius.html">Radius</a><a href="box-shadow.html">Shadow</a><a href="color-converter.html">Converter</a><a href="color-mixer.html">Mixer</a><a href="shape-generator.html">Shapes</a></div></nav></header>
+  <main class="shell">
+    <section class="page-head"><p class="kicker">Tool 05</p><h2>Color mixer</h2></section>
+    <section class="workspace">
+      <aside class="controls-card"><div class="controls"><div class="control-row"><div class="control"><label for="a">Color A</label><input id="a" type="color" value="#d7a941" /></div><div class="control"><label for="b">Color B</label><input id="b" type="color" value="#48237b" /></div></div><div class="control"><label for="mix">Mix amount <span class="value" data-output="mix"></span>%</label><input id="mix" type="range" min="0" max="100" value="50" /></div><div class="control"><label for="mode">Blend mode</label><select id="mode"><option value="rgb">RGB</option><option value="hsl">HSL</option></select></div><div class="swatches"><div class="swatch"></div><div class="swatch"></div><div class="swatch"></div><div class="swatch"></div><div class="swatch"></div></div></div></aside>
+      <section class="panel"><div class="preview-zone"><div id="target" class="target">Preview</div></div><pre id="code" class="code"></pre><button class="button primary copy" type="button">Copy output</button></section>
+    </section>
+  </main>
+  <footer class="shell footer"><span>Ready for GitHub Pages hosting.</span><span>Created by <a href="https://vetrisuriya.in/" target="_blank" rel="noreferrer">Vetri Suriya</a></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
